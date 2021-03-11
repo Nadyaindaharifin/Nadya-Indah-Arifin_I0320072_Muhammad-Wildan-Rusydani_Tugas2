@@ -1,6 +1,3 @@
-print("Soal 1")
-print("--------------------------------------")
-
 def menu():
     print("Pilihlan mana yang akan anda hitung")
     print("-----------------------------------")
@@ -17,7 +14,7 @@ def persegipanjang():
     print("Luas Persegi Panjang: ", luas)
 
 def lingkaran():
-    jarijari = float(input("Masukkan Jari Jari Lingkaran"))
+    jarijari = float(input("Masukkan Jari Jari Lingkaran: "))
     Luas = 3.14 * (jarijari ** 2)
     print("Luas Lingkaran: ", Luas)
 
@@ -38,7 +35,6 @@ def suhureamurkekelvin():
 
 #ProgramUtama
 print("Program Python Menghitung Luas Benda dan Konversi Suhu")
-print("------------------------------------------------------")
 menu()
 pilih = input("Masukkan pilihan: ")
 print("------------------------------------------------------")
