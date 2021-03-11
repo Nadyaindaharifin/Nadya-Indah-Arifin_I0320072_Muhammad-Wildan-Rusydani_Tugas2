@@ -1,3 +1,6 @@
+print("Soal 1")
+print("--------------------------------------")
+
 def menu():
     print("Pilihlan mana yang akan anda hitung")
     print("-----------------------------------")
@@ -35,6 +38,7 @@ def suhureamurkekelvin():
 
 #ProgramUtama
 print("Program Python Menghitung Luas Benda dan Konversi Suhu")
+print("------------------------------------------------------")
 menu()
 pilih = input("Masukkan pilihan: ")
 print("------------------------------------------------------")
